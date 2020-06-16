@@ -31,21 +31,18 @@ class FlowerViewController: UIViewController, ImagePickerDelegate {
     
     @IBAction func recognize(_ sender: UIButton) {
         
-        let parameters = ["name": "MyTestFile123321",
-        "description": "My tutorial test file for MPFD uploads"]
-        
         guard let mediaImage = Media(withImage: imageView.image!, forKey: "myfile") else { return }
         
         guard let url = URL(string: "http://161.35.118.47:8000/prediction/flower/") else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         
-        let boundary = generateBoundary()
+        let boundary = Utils.generateBoundary()
         
         request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
         request.addValue("Client-ID f65203f7020dddc", forHTTPHeaderField: "Authorization")
         
-        let dataBody = createDataBody(withParameters: parameters, media: [mediaImage], boundary: boundary)
+        let dataBody = Utils.createDataBody(media: [mediaImage], boundary: boundary)
         request.httpBody = dataBody
         
         let session = URLSession.shared

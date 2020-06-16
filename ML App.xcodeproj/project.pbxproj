@@ -16,6 +16,7 @@
 		2D28993C24983B9C0036741B /* RoadsignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28993B24983B9C0036741B /* RoadsignView.swift */; };
 		2D28993E24983DC40036741B /* DogRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28993D24983DC40036741B /* DogRaceView.swift */; };
 		2D2899402498A2220036741B /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28993F2498A2220036741B /* FlowerView.swift */; };
+		2D28994224995B430036741B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28994124995B430036741B /* Utilities.swift */; };
 		2D31F92F24950B3F00D7ADD5 /* EmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D31F92E24950B3F00D7ADD5 /* EmotionView.swift */; };
 		2D35E3D3249544B8003A3B2F /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35E3D2249544B8003A3B2F /* Picker.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		2D28993B24983B9C0036741B /* RoadsignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsignView.swift; sourceTree = "<group>"; };
 		2D28993D24983DC40036741B /* DogRaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRaceView.swift; sourceTree = "<group>"; };
 		2D28993F2498A2220036741B /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		2D28994124995B430036741B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		2D31F92E24950B3F00D7ADD5 /* EmotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionView.swift; sourceTree = "<group>"; };
 		2D35E3D2249544B8003A3B2F /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 				2D28993B24983B9C0036741B /* RoadsignView.swift */,
 				2D28993D24983DC40036741B /* DogRaceView.swift */,
 				2D28993F2498A2220036741B /* FlowerView.swift */,
+				2D28994124995B430036741B /* Utilities.swift */,
 			);
 			path = "ML App";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				2D28993C24983B9C0036741B /* RoadsignView.swift in Sources */,
 				15C00DF922F0D46000FF9952 /* LoginViewController.swift in Sources */,
 				15C00DD922F0D35900FF9952 /* AppDelegate.swift in Sources */,
+				2D28994224995B430036741B /* Utilities.swift in Sources */,
 				2D28993E24983DC40036741B /* DogRaceView.swift in Sources */,
 				2D35E3D3249544B8003A3B2F /* Picker.swift in Sources */,
 			);
